@@ -1,0 +1,6 @@
+.Dashboard {
+    width: 100vw;
+    overflow-x: hidden;
+    background: rgb(245, 245, 245);
+    padding-top: 80px;
+}

@@ -1,0 +1,22 @@
+.FeedContent {
+    min-width: 100vw;
+    max-height: 400px;
+    overflow-wrap: default;
+    overflow: scroll;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.Feed h2 {
+    position: relative;
+    top: 25px;
+    text-align: left;
+    left: 50px;
+    font-size: 40px;
+    margin-top: -25px;
+    font-weight: 700;
+}
+
+.Feed {
+    padding-right: 100px;
+}

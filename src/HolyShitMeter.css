@@ -1,0 +1,59 @@
+.HolyShitMeter {
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    left: 50vw;
+    border-radius: 10px;
+    transform: translateX(-150px);
+    background-color:  rgb(233, 233, 233);
+    border: 1px solid rgb(147, 203, 255);
+}
+
+.HolyShitMeter input {
+    position: relative;
+    width: 200px;
+    top: 70px;
+    cursor: pointer;
+    fill: red;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0.9px 0.9px 1px rgb(147, 203, 255), 0px 0px 0.9px rgb(147, 203, 255);
+    border: 1.8px solid rgb(147, 203, 255);
+    height: 26px;
+    width: 26px;
+    border-radius: 15px;
+    background: rgb(147, 203, 255);
+    margin-top: -6px;
+  
+  }
+  
+  input[type=range]::-webkit-slider-runnable-track {
+    background:rgb(147, 203, 255);
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    height: 6px;
+    -webkit-appearance: none;
+  }
+  
+  .HolyShitMeter label {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 47px;
+    left: 0;
+    text-align: center;
+    color: rgb(0, 42, 78);
+    font-weight: 700;
+  }
+
+  .HolyShitMeter div {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: 20px;
+    font-weight: 100;
+  }
+  .HolyShitMeter div span {
+    color: rgb(147, 203, 255);
+  }
