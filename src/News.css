@@ -1,0 +1,76 @@
+.News img {
+    height: 225px;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.News {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    overflow-y: scroll;
+    cursor: pointer;
+    transition: width 200ms, height 200ms;
+}
+
+.News:hover {
+}
+
+.News .text {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    padding: 5%;
+    margin-top: -4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: height 200ms, margin-top 200ms, width 200ms;
+    background: rgb(223, 223, 223);
+}
+
+.News .text p {
+
+}
+
+.News .text h3 {
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.text.hover {
+    height: 100px;
+    margin-top: -50px;
+
+}
+
+.News .source {
+    position: absolute;
+    text-align: left;
+    margin-bottom: -33px;
+    height: 20px;
+    background: rgba(182, 182, 182, 0.692);
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
+    font-weight: 100;
+    width: auto;
+    margin-right: auto;
+}
+
+.desc {
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+.desc.hover {
+    opacity: 1;
+}
